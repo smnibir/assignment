@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.button{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #fa7f4b;
+    padding: 16px 24px;
+    border-radius: 5px;
+}
+#hero-banner{
+    background-image:  linear-gradient( rgba(245, 246, 252, 0.055), rgba(37, 37, 37, 0.986)),
+    url('images/banner.jpg');
+    min-height: 700px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+}
