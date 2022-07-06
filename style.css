@@ -24,7 +24,6 @@ p{
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-weight: 400;
     color: #646464;
 }
 input[type=number]{
@@ -45,12 +44,12 @@ input[type=text]{
     font-size: 20px;
     text-align: left;
     background-color: #FFF5F1;
-    padding-left: 15px;
+    padding: 0 10px;
     width: 100%;
     border-radius: 5px 0 0 5px;
 }
 input[type=button]{
-    height: 59px;
+    height: 57px;
     color: #ffffff;
     background-color: #fa7f4b;
     font-size: 20px;
@@ -58,9 +57,22 @@ input[type=button]{
     width: 100%;
     border-width: 0px;
     border-radius: 0 5px 5px 0;
+    cursor: pointer;
 }
 img{
     border-radius: 8px;
+}
+a{
+    color: #fa7f4b;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer{
+    background-color: #0B0D17;
+    color: #ffffff;
+    text-align: center;
 }
 .center-text{
     text-align: center;
@@ -172,6 +184,7 @@ img{
     margin: auto;
     padding: 90px 150px;
     display: flex;
+    margin-top: 50px;
   }
   .email-box{
   width: 70%;
@@ -179,4 +192,20 @@ img{
   }
   .submit{
     width: 30%;
+}
+.extra-section{
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+#last-section{
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+.footer-text{
+    color:#ffffff;
+    margin: 0px;
+    padding: 20px;
 }
