@@ -27,15 +27,40 @@ p{
     font-weight: 400;
     color: #646464;
 }
-input{
+input[type=number]{
     height: 55px;
     margin-bottom: 25px;
     width: 100%;
     border-width: 0px 0px 2px 0px;
     border-color: #64646440;
-    color: #64646447;
+    color: #646464;
     font-size: 20px;
     text-align: center;
+}
+input[type=text]{
+    height: 55px;
+    border-width: 1px;
+    border-color: #fa7f4b;
+    color: #646464;
+    font-size: 20px;
+    text-align: left;
+    background-color: #FFF5F1;
+    padding-left: 15px;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+input[type=button]{
+    height: 59px;
+    color: #ffffff;
+    background-color: #fa7f4b;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    border-width: 0px;
+    border-radius: 0 5px 5px 0;
+}
+img{
+    border-radius: 8px;
 }
 .center-text{
     text-align: center;
@@ -104,13 +129,14 @@ input{
 .mission-section{
     align-items: center;
     display: flex;
+    gap: 30px;
     padding-top: 40px;
     
 }
 .mission-box{
     width: 100%;
-    margin: 0 15px;
     padding: 50px 30px;
+    border-radius: 5px;
 }
 #mission-box-1{
     background-color: #FFF4D6;
@@ -119,8 +145,38 @@ input{
     background-color: #EDF5F6;
 }
 #mission-box-3{
-    background-color: #FEEDED;
+    background-color: rgb(250 127 75 / 18%);;
 }
 .mission-box-img{
     width: 60px;
+    padding-bottom: 10px 0 15px 0;
+}
+.two-column{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+#width-half{
+  padding-right: 5%;
+}
+.below-content{
+    padding-bottom: 20px;
+}
+#width-half-2{
+    padding-left: 5%;
+  }
+  .newsletter{
+    background-color: #FFF4D6;
+    width: 600px;
+    margin: auto;
+    padding: 90px 150px;
+    display: flex;
+  }
+  .email-box{
+  width: 70%;
+  float: left;
+  }
+  .submit{
+    width: 30%;
 }
