@@ -8,9 +8,9 @@ h1{
     margin: 0px;
 }
 h2{
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Oswald', sans-serif;
-    color: #121212;
+    color: #121212;   
     margin: 0px;
 }
 h3{
@@ -18,16 +18,29 @@ h3{
     font-family: 'Oswald', sans-serif;
     margin: 0px;
 }
+
 p{
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
+    font-weight: 400;
+    color: #646464;
+}
+input{
+    height: 55px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-width: 0px 0px 2px 0px;
+    border-color: #646464c4;
+    color: #64646447;
+    font-size: 20px;
+    text-align: center;
 }
 .center-text{
     text-align: center;
 }
 .section-area{
-    padding: 40px 10px;
+    padding: 70px 10px;
 }
 .button{
     font-family: 'Nunito', sans-serif;
@@ -38,6 +51,10 @@ p{
     background-color: #fa7f4b;
     padding: 13px 24px;
     border-radius: 5px;
+}
+#section-2{
+    width: 900px;
+    margin: auto;
 }
 #hero-banner{
     background-image:  linear-gradient( rgba(245, 246, 252, 0.055), rgba(29, 28, 28, 0.986)),
@@ -50,6 +67,34 @@ p{
     color: #ffffff;
 }
 .banner-subtitle{
-    margin-top: -20px;
     padding-bottom: 15px;
+    color: #ffffff;
+}
+.select-amount{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.amount-box{
+    min-width: 150px;
+    background-color: #fafafa;
+    text-align: center;
+    color: #646464;
+    padding: 35px 0px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+}
+#selected-amount{
+    border: 3px solid #fa7f4b;
+    background-color: #fa7f4b14;
+    color: #fa7f4b;
+}
+.custom-amount{
+    padding-top: 80px;
+    text-align: center;
+    margin: auto;
+    width: 855px;
 }
