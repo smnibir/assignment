@@ -31,7 +31,7 @@ input{
     margin-bottom: 25px;
     width: 100%;
     border-width: 0px 0px 2px 0px;
-    border-color: #646464c4;
+    border-color: #64646440;
     color: #64646447;
     font-size: 20px;
     text-align: center;
@@ -41,6 +41,7 @@ input{
 }
 .section-area{
     padding: 70px 10px;
+    margin: auto;
 }
 .button{
     font-family: 'Nunito', sans-serif;
@@ -97,4 +98,23 @@ input{
     text-align: center;
     margin: auto;
     width: 855px;
+}
+.mission-section{
+    align-items: center;
+    display: flex;
+    margin: 0 5%;
+    
+}
+.mission-box{
+    width: 100%;
+    margin: 0 50px;
+}
+#mission-box-1{
+    background-color: #FFF4D6;
+}
+#mission-box-2{
+    background-color: #EDF5F6;
+}
+#mission-box-3{
+    background-color: #FEEDED;
 }
